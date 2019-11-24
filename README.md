@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <a href="https://iosnotlari.com/self-sizing-tableviewcell/"></a>
+  <a href="https://iosnotlari.com/self-sizing-tableviewcell/"><img src="https://iosnotlari.com/wp-content/uploads/2019/11/self-sizing-tableviewcells.png"/></a>
 </p>
 
 <p align="center">
