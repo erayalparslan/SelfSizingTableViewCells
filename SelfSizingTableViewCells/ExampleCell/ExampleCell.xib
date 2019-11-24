@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="378" id="S20-q8-F28" customClass="ExampleCell" customModule="SelfSizingTableViewCells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="378"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S20-q8-F28" id="FsY-rb-Fqf">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="377.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="turkiye1" translatesAutoresizingMaskIntoConstraints="NO" id="eSS-j6-q8C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="eSS-j6-q8C" secondAttribute="height" multiplier="3:1" id="9oC-2z-jHR"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet consectetur adipi" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFZ-Vv-aTR">
+                        <rect key="frame" x="20" y="145" width="315" height="55"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19 Ağustos, 2019" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7N2-rX-6BM">
+                        <rect key="frame" x="20" y="208" width="100.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vyt-fl-PZc">
+                        <rect key="frame" x="20" y="235" width="335" height="54"/>
+                        <string key="text">Mauris pellentesque sollicitudin maximus. Morbi sed molestie urna. Sed et erat vestibulum, efficitur quam in, blandit mauris. Ma</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ya-Sj-gF9">
+                        <rect key="frame" x="0.0" y="376.5" width="375" height="1"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="VEK-BB-ISk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Vyt-fl-PZc" secondAttribute="trailing" constant="20" id="8ZR-fK-Wgl"/>
+                    <constraint firstItem="Vyt-fl-PZc" firstAttribute="top" secondItem="IFZ-Vv-aTR" secondAttribute="bottom" constant="35" id="Bjj-xn-40Y"/>
+                    <constraint firstItem="eSS-j6-q8C" firstAttribute="leading" secondItem="FsY-rb-Fqf" secondAttribute="leading" id="FVH-de-x4o"/>
+                    <constraint firstItem="7N2-rX-6BM" firstAttribute="top" secondItem="IFZ-Vv-aTR" secondAttribute="bottom" constant="8" id="JLx-jb-Fp8"/>
+                    <constraint firstItem="7N2-rX-6BM" firstAttribute="leading" secondItem="FsY-rb-Fqf" secondAttribute="leading" constant="20" id="ONW-s8-K7Y"/>
+                    <constraint firstItem="IFZ-Vv-aTR" firstAttribute="leading" secondItem="FsY-rb-Fqf" secondAttribute="leading" constant="20" id="PHu-5B-Lcc"/>
+                    <constraint firstItem="eSS-j6-q8C" firstAttribute="top" secondItem="FsY-rb-Fqf" secondAttribute="top" id="PJs-4C-Dpk"/>
+                    <constraint firstItem="9ya-Sj-gF9" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Vyt-fl-PZc" secondAttribute="bottom" constant="35" id="Z7E-iY-ggW"/>
+                    <constraint firstItem="Vyt-fl-PZc" firstAttribute="leading" secondItem="FsY-rb-Fqf" secondAttribute="leading" constant="20" id="bxS-IH-fSa"/>
+                    <constraint firstAttribute="bottom" secondItem="9ya-Sj-gF9" secondAttribute="bottom" id="cOM-2U-FTM"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="IFZ-Vv-aTR" secondAttribute="trailing" constant="20" id="iA0-KR-zym"/>
+                    <constraint firstAttribute="trailing" secondItem="9ya-Sj-gF9" secondAttribute="trailing" id="kCc-oO-uce"/>
+                    <constraint firstItem="9ya-Sj-gF9" firstAttribute="leading" secondItem="FsY-rb-Fqf" secondAttribute="leading" id="ltk-eH-VA3"/>
+                    <constraint firstItem="IFZ-Vv-aTR" firstAttribute="top" secondItem="eSS-j6-q8C" secondAttribute="bottom" constant="20" id="piw-N0-r8j"/>
+                    <constraint firstAttribute="trailing" secondItem="eSS-j6-q8C" secondAttribute="trailing" id="u5R-Zg-ah0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="7N2-rX-6BM" id="JPk-Zg-Zjo"/>
+                <outlet property="descriptionLabel" destination="Vyt-fl-PZc" id="85W-GU-Wr1"/>
+                <outlet property="mainImageView" destination="eSS-j6-q8C" id="Bhy-Ax-bpm"/>
+                <outlet property="titleLabel" destination="IFZ-Vv-aTR" id="ZiP-Xk-9bs"/>
+            </connections>
+            <point key="canvasLocation" x="-625.36231884057975" y="-119.19642857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="turkiye1" width="632" height="314"/>
+    </resources>
+</document>
